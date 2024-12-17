@@ -1,7 +1,11 @@
-package gm.rahmanproperties;
+package sn.groupeisi;
+
+import static sn.groupeisi.Factoriel.factoriel;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        int nombre = 7;
+        int calculateFactoriel = factoriel(nombre);
+        System.out.println(calculateFactoriel);
     }
 }
